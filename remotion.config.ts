@@ -5,3 +5,5 @@ Config.setImageFormat('jpeg');
 Config.setOverwriteOutput(true);
 
 Config.overrideWebpackConfig(webpackOverride);
+
+Config.setMaxTimelineTracks(20);
